@@ -29,17 +29,16 @@ It includes core functionalities like:
 
 ```
 /llcode
-├── singly.c
-├── singly_circular.c
-├── doubly.c
-├── doubly_circular.c
-├── traversal.c
+├── createList.c
+├── errorMessage.c
+├── headNode.c
 ├── insertion.c
-├── deletion.c
-├── size.c
-├── headnode.c
 ├── linkedlist.h
-├── test.c             # Example usage
+├── operations.c
+├── removal.c
+├── reversal.c
+├── size.c
+├── traversal.c
 └── ...
 ```
 
@@ -135,6 +134,8 @@ int main() {
     sll.create(5);
     sll.traverse();
     sll.remove(3);
+    sll.traverse();
+    sll.insert(4);
     sll.traverse();
     sll.size();
     return 0;
