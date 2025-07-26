@@ -28,7 +28,7 @@ It includes core functionalities like:
 ## 📁 Project Structure
 
 ```
-/llcode
+/Linkly
 ├── createList.c
 ├── errorMessage.c
 ├── headNode.c
